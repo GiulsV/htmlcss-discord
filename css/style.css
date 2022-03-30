@@ -8,3 +8,53 @@ body{
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+header{
+    background-color: #255ee9;
+    height: 100px;
+}
+
+#logo{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.navbar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    
+
+}
+button{
+    float: right;
+}
+
+.container{
+    background-color: aquamarine;
+    margin:0 20%;
+    height: 100px;
+}
+
+.jumbotron{
+    position: relative;
+    width: 100%;
+    height: 100vh;;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.jumbotron .container{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% , -50%);
+    width: 40%;
+    height: fit-content;
+}
